@@ -1,0 +1,889 @@
+{
+  "assets": [
+   {
+    "id": 100,
+    "product": {
+     "batch": "202306",
+     "sku": "KMF-7389BX"
+    },
+    "location": {
+     "lon": 36.6927,
+     "lat": -1.32311
+    },
+    "measurement": {
+     "containerVolume": 15000,
+     "containerVolumeUnits": "liters",
+     "currentFuelVolume": 2910,
+     "lowVolumeThreshDays": 5,
+     "history": [
+      {
+       "id": 0,
+       "measurementDate": "2022-12-24",
+       "FuelVolume": 14374
+      },
+      {
+       "id": 1,
+       "measurementDate": "2022-12-25",
+       "FuelVolume": 14297
+      },
+      {
+       "id": 2,
+       "measurementDate": "2022-12-26",
+       "FuelVolume": 13172
+      },
+      {
+       "id": 3,
+       "measurementDate": "2022-12-27",
+       "FuelVolume": 12989
+      },
+      {
+       "id": 4,
+       "measurementDate": "2022-12-28",
+       "FuelVolume": 12598
+      },
+      {
+       "id": 5,
+       "measurementDate": "2022-12-29",
+       "FuelVolume": 11908
+      },
+      {
+       "id": 6,
+       "measurementDate": "2022-12-30",
+       "FuelVolume": 11790
+      },
+      {
+       "id": 7,
+       "measurementDate": "2022-12-31",
+       "FuelVolume": 11502
+      },
+      {
+       "id": 8,
+       "measurementDate": "2023-01-01",
+       "FuelVolume": 11103
+      },
+      {
+       "id": 9,
+       "measurementDate": "2023-01-02",
+       "FuelVolume": 11055
+      },
+      {
+       "id": 10,
+       "measurementDate": "2023-01-03",
+       "FuelVolume": 10904
+      },
+      {
+       "id": 11,
+       "measurementDate": "2023-01-04",
+       "FuelVolume": 10454
+      },
+      {
+       "id": 12,
+       "measurementDate": "2023-01-05",
+       "FuelVolume": 10181
+      },
+      {
+       "id": 13,
+       "measurementDate": "2023-01-06",
+       "FuelVolume": 9465
+      },
+      {
+       "id": 14,
+       "measurementDate": "2023-01-07",
+       "FuelVolume": 9445
+      },
+      {
+       "id": 15,
+       "measurementDate": "2023-01-08",
+       "FuelVolume": 9266
+      },
+      {
+       "id": 16,
+       "measurementDate": "2023-01-09",
+       "FuelVolume": 9094
+      },
+      {
+       "id": 17,
+       "measurementDate": "2023-01-10",
+       "FuelVolume": 9004
+      },
+      {
+       "id": 18,
+       "measurementDate": "2023-01-11",
+       "FuelVolume": 8872
+      },
+      {
+       "id": 19,
+       "measurementDate": "2023-01-12",
+       "FuelVolume": 8323
+      },
+      {
+       "id": 20,
+       "measurementDate": "2023-01-13",
+       "FuelVolume": 8309
+      },
+      {
+       "id": 21,
+       "measurementDate": "2023-01-14",
+       "FuelVolume": 7643
+      },
+      {
+       "id": 22,
+       "measurementDate": "2023-01-15",
+       "FuelVolume": 6163
+      },
+      {
+       "id": 23,
+       "measurementDate": "2023-01-16",
+       "FuelVolume": 6037
+      },
+      {
+       "id": 24,
+       "measurementDate": "2023-01-17",
+       "FuelVolume": 5893
+      },
+      {
+       "id": 25,
+       "measurementDate": "2023-01-18",
+       "FuelVolume": 5706
+      },
+      {
+       "id": 26,
+       "measurementDate": "2023-01-19",
+       "FuelVolume": 4747
+      },
+      {
+       "id": 27,
+       "measurementDate": "2023-01-20",
+       "FuelVolume": 4734
+      },
+      {
+       "id": 28,
+       "measurementDate": "2023-01-21",
+       "FuelVolume": 4320
+      },
+      {
+       "id": 29,
+       "measurementDate": "2023-01-22",
+       "FuelVolume": 4009
+      }
+     ]
+    },
+    "name": "LPG tank 13409",
+    "imageLink": "https://www.generatorsource.com/getattachment/Articles/Generator-Info/Generator-Fuel-Tanks/Diesel-Fuel-Tank.jpg",
+    "notesList": [
+     {
+      "creator": "Admin",
+      "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
+     }
+    ]
+   },
+   {
+    "id": 101,
+    "product": {
+     "batch": "202306",
+     "sku": "KMF-7389BX"
+    },
+    "location": {
+     "lon": 36.75405,
+     "lat": -1.29297
+    },
+    "measurement": {
+     "containerVolume": 15000,
+     "containerVolumeUnits": "liters",
+     "currentFuelVolume": 6737,
+     "lowVolumeThreshDays": 13,
+     "history": [
+      {
+       "id": 0,
+       "measurementDate": "2022-12-24",
+       "FuelVolume": 14931
+      },
+      {
+       "id": 1,
+       "measurementDate": "2022-12-25",
+       "FuelVolume": 14672
+      },
+      {
+       "id": 2,
+       "measurementDate": "2022-12-26",
+       "FuelVolume": 14337
+      },
+      {
+       "id": 3,
+       "measurementDate": "2022-12-27",
+       "FuelVolume": 14068
+      },
+      {
+       "id": 4,
+       "measurementDate": "2022-12-28",
+       "FuelVolume": 14063
+      },
+      {
+       "id": 5,
+       "measurementDate": "2022-12-29",
+       "FuelVolume": 13637
+      },
+      {
+       "id": 6,
+       "measurementDate": "2022-12-30",
+       "FuelVolume": 13344
+      },
+      {
+       "id": 7,
+       "measurementDate": "2022-12-31",
+       "FuelVolume": 12807
+      },
+      {
+       "id": 8,
+       "measurementDate": "2023-01-01",
+       "FuelVolume": 12529
+      },
+      {
+       "id": 9,
+       "measurementDate": "2023-01-02",
+       "FuelVolume": 11730
+      },
+      {
+       "id": 10,
+       "measurementDate": "2023-01-03",
+       "FuelVolume": 11652
+      },
+      {
+       "id": 11,
+       "measurementDate": "2023-01-04",
+       "FuelVolume": 11218
+      },
+      {
+       "id": 12,
+       "measurementDate": "2023-01-05",
+       "FuelVolume": 11188
+      },
+      {
+       "id": 13,
+       "measurementDate": "2023-01-06",
+       "FuelVolume": 10946
+      },
+      {
+       "id": 14,
+       "measurementDate": "2023-01-07",
+       "FuelVolume": 10754
+      },
+      {
+       "id": 15,
+       "measurementDate": "2023-01-08",
+       "FuelVolume": 10741
+      },
+      {
+       "id": 16,
+       "measurementDate": "2023-01-09",
+       "FuelVolume": 10654
+      },
+      {
+       "id": 17,
+       "measurementDate": "2023-01-10",
+       "FuelVolume": 10203
+      },
+      {
+       "id": 18,
+       "measurementDate": "2023-01-11",
+       "FuelVolume": 10039
+      },
+      {
+       "id": 19,
+       "measurementDate": "2023-01-12",
+       "FuelVolume": 9998
+      },
+      {
+       "id": 20,
+       "measurementDate": "2023-01-13",
+       "FuelVolume": 9764
+      },
+      {
+       "id": 21,
+       "measurementDate": "2023-01-14",
+       "FuelVolume": 9226
+      },
+      {
+       "id": 22,
+       "measurementDate": "2023-01-15",
+       "FuelVolume": 9151
+      },
+      {
+       "id": 23,
+       "measurementDate": "2023-01-16",
+       "FuelVolume": 8853
+      },
+      {
+       "id": 24,
+       "measurementDate": "2023-01-17",
+       "FuelVolume": 8809
+      },
+      {
+       "id": 25,
+       "measurementDate": "2023-01-18",
+       "FuelVolume": 8671
+      },
+      {
+       "id": 26,
+       "measurementDate": "2023-01-19",
+       "FuelVolume": 8654
+      },
+      {
+       "id": 27,
+       "measurementDate": "2023-01-20",
+       "FuelVolume": 7911
+      },
+      {
+       "id": 28,
+       "measurementDate": "2023-01-21",
+       "FuelVolume": 7879
+      },
+      {
+       "id": 29,
+       "measurementDate": "2023-01-22",
+       "FuelVolume": 7336
+      }
+     ]
+    },
+    "name": "LPG tank 2376",
+    "imageLink": "https://www.generatorsource.com/getattachment/Articles/Generator-Info/Generator-Fuel-Tanks/Diesel-Fuel-Tank.jpg",
+    "notesList": [
+     {
+      "creator": "Admin",
+      "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "product": {
+     "batch": "202306",
+     "sku": "KMF-7389BX"
+    },
+    "location": {
+     "lon": 37.00711,
+     "lat": -1.33121
+    },
+    "measurement": {
+     "containerVolume": 15000,
+     "containerVolumeUnits": "liters",
+     "currentFuelVolume": 8943,
+     "lowVolumeThreshDays": 9,
+     "history": [
+      {
+       "id": 0,
+       "measurementDate": "2022-12-24",
+       "FuelVolume": 14902
+      },
+      {
+       "id": 1,
+       "measurementDate": "2022-12-25",
+       "FuelVolume": 14537
+      },
+      {
+       "id": 2,
+       "measurementDate": "2022-12-26",
+       "FuelVolume": 14436
+      },
+      {
+       "id": 3,
+       "measurementDate": "2022-12-27",
+       "FuelVolume": 14184
+      },
+      {
+       "id": 4,
+       "measurementDate": "2022-12-28",
+       "FuelVolume": 14032
+      },
+      {
+       "id": 5,
+       "measurementDate": "2022-12-29",
+       "FuelVolume": 13886
+      },
+      {
+       "id": 6,
+       "measurementDate": "2022-12-30",
+       "FuelVolume": 13648
+      },
+      {
+       "id": 7,
+       "measurementDate": "2022-12-31",
+       "FuelVolume": 13613
+      },
+      {
+       "id": 8,
+       "measurementDate": "2023-01-01",
+       "FuelVolume": 13227
+      },
+      {
+       "id": 9,
+       "measurementDate": "2023-01-02",
+       "FuelVolume": 13128
+      },
+      {
+       "id": 10,
+       "measurementDate": "2023-01-03",
+       "FuelVolume": 12944
+      },
+      {
+       "id": 11,
+       "measurementDate": "2023-01-04",
+       "FuelVolume": 12777
+      },
+      {
+       "id": 12,
+       "measurementDate": "2023-01-05",
+       "FuelVolume": 12713
+      },
+      {
+       "id": 13,
+       "measurementDate": "2023-01-06",
+       "FuelVolume": 12588
+      },
+      {
+       "id": 14,
+       "measurementDate": "2023-01-07",
+       "FuelVolume": 12339
+      },
+      {
+       "id": 15,
+       "measurementDate": "2023-01-08",
+       "FuelVolume": 11769
+      },
+      {
+       "id": 16,
+       "measurementDate": "2023-01-09",
+       "FuelVolume": 11445
+      },
+      {
+       "id": 17,
+       "measurementDate": "2023-01-10",
+       "FuelVolume": 11276
+      },
+      {
+       "id": 18,
+       "measurementDate": "2023-01-11",
+       "FuelVolume": 11056
+      },
+      {
+       "id": 19,
+       "measurementDate": "2023-01-12",
+       "FuelVolume": 11019
+      },
+      {
+       "id": 20,
+       "measurementDate": "2023-01-13",
+       "FuelVolume": 10978
+      },
+      {
+       "id": 21,
+       "measurementDate": "2023-01-14",
+       "FuelVolume": 10039
+      },
+      {
+       "id": 22,
+       "measurementDate": "2023-01-15",
+       "FuelVolume": 9852
+      },
+      {
+       "id": 23,
+       "measurementDate": "2023-01-16",
+       "FuelVolume": 9737
+      },
+      {
+       "id": 24,
+       "measurementDate": "2023-01-17",
+       "FuelVolume": 9658
+      },
+      {
+       "id": 25,
+       "measurementDate": "2023-01-18",
+       "FuelVolume": 9599
+      },
+      {
+       "id": 26,
+       "measurementDate": "2023-01-19",
+       "FuelVolume": 9517
+      },
+      {
+       "id": 27,
+       "measurementDate": "2023-01-20",
+       "FuelVolume": 9442
+      },
+      {
+       "id": 28,
+       "measurementDate": "2023-01-21",
+       "FuelVolume": 9360
+      },
+      {
+       "id": 29,
+       "measurementDate": "2023-01-22",
+       "FuelVolume": 8950
+      }
+     ]
+    },
+    "name": "LPG tank 836",
+    "imageLink": "https://www.generatorsource.com/getattachment/Articles/Generator-Info/Generator-Fuel-Tanks/Diesel-Fuel-Tank.jpg",
+    "notesList": [
+     {
+      "creator": "Admin",
+      "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
+     }
+    ]
+   },
+   {
+    "id": 103,
+    "product": {
+     "batch": "202306",
+     "sku": "KMF-7389BX"
+    },
+    "location": {
+     "lon": 36.78524,
+     "lat": -1.20958
+    },
+    "measurement": {
+     "containerVolume": 25000,
+     "containerVolumeUnits": "liters",
+     "currentFuelVolume": 6405,
+     "lowVolumeThreshDays": 7,
+     "history": [
+      {
+       "id": 0,
+       "measurementDate": "2022-12-24",
+       "FuelVolume": 23393
+      },
+      {
+       "id": 1,
+       "measurementDate": "2022-12-25",
+       "FuelVolume": 23085
+      },
+      {
+       "id": 2,
+       "measurementDate": "2022-12-26",
+       "FuelVolume": 21522
+      },
+      {
+       "id": 3,
+       "measurementDate": "2022-12-27",
+       "FuelVolume": 21186
+      },
+      {
+       "id": 4,
+       "measurementDate": "2022-12-28",
+       "FuelVolume": 20763
+      },
+      {
+       "id": 5,
+       "measurementDate": "2022-12-29",
+       "FuelVolume": 20536
+      },
+      {
+       "id": 6,
+       "measurementDate": "2022-12-30",
+       "FuelVolume": 19977
+      },
+      {
+       "id": 7,
+       "measurementDate": "2022-12-31",
+       "FuelVolume": 19318
+      },
+      {
+       "id": 8,
+       "measurementDate": "2023-01-01",
+       "FuelVolume": 19038
+      },
+      {
+       "id": 9,
+       "measurementDate": "2023-01-02",
+       "FuelVolume": 18990
+      },
+      {
+       "id": 10,
+       "measurementDate": "2023-01-03",
+       "FuelVolume": 17914
+      },
+      {
+       "id": 11,
+       "measurementDate": "2023-01-04",
+       "FuelVolume": 17730
+      },
+      {
+       "id": 12,
+       "measurementDate": "2023-01-05",
+       "FuelVolume": 17676
+      },
+      {
+       "id": 13,
+       "measurementDate": "2023-01-06",
+       "FuelVolume": 17454
+      },
+      {
+       "id": 14,
+       "measurementDate": "2023-01-07",
+       "FuelVolume": 17317
+      },
+      {
+       "id": 15,
+       "measurementDate": "2023-01-08",
+       "FuelVolume": 17209
+      },
+      {
+       "id": 16,
+       "measurementDate": "2023-01-09",
+       "FuelVolume": 14967
+      },
+      {
+       "id": 17,
+       "measurementDate": "2023-01-10",
+       "FuelVolume": 14464
+      },
+      {
+       "id": 18,
+       "measurementDate": "2023-01-11",
+       "FuelVolume": 12858
+      },
+      {
+       "id": 19,
+       "measurementDate": "2023-01-12",
+       "FuelVolume": 12635
+      },
+      {
+       "id": 20,
+       "measurementDate": "2023-01-13",
+       "FuelVolume": 11458
+      },
+      {
+       "id": 21,
+       "measurementDate": "2023-01-14",
+       "FuelVolume": 10620
+      },
+      {
+       "id": 22,
+       "measurementDate": "2023-01-15",
+       "FuelVolume": 10244
+      },
+      {
+       "id": 23,
+       "measurementDate": "2023-01-16",
+       "FuelVolume": 9687
+      },
+      {
+       "id": 24,
+       "measurementDate": "2023-01-17",
+       "FuelVolume": 9371
+      },
+      {
+       "id": 25,
+       "measurementDate": "2023-01-18",
+       "FuelVolume": 9349
+      },
+      {
+       "id": 26,
+       "measurementDate": "2023-01-19",
+       "FuelVolume": 8951
+      },
+      {
+       "id": 27,
+       "measurementDate": "2023-01-20",
+       "FuelVolume": 8450
+      },
+      {
+       "id": 28,
+       "measurementDate": "2023-01-21",
+       "FuelVolume": 7129
+      },
+      {
+       "id": 29,
+       "measurementDate": "2023-01-22",
+       "FuelVolume": 6417
+      }
+     ]
+    },
+    "name": "LPG tank 23957",
+    "imageLink": "https://www.generatorsource.com/getattachment/Articles/Generator-Info/Generator-Fuel-Tanks/Diesel-Fuel-Tank.jpg",
+    "notesList": [
+     {
+      "creator": "Admin",
+      "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
+     }
+    ]
+   },
+   {
+    "id": 104,
+    "product": {
+     "batch": "202306",
+     "sku": "KMF-7389BX"
+    },
+    "location": {
+     "lon": 36.66692,
+     "lat": -1.35502
+    },
+    "measurement": {
+     "containerVolume": 20000,
+     "containerVolumeUnits": "liters",
+     "currentFuelVolume": 9615,
+     "lowVolumeThreshDays": 3,
+     "history": [
+      {
+       "id": 0,
+       "measurementDate": "2022-12-24",
+       "FuelVolume": 19929
+      },
+      {
+       "id": 1,
+       "measurementDate": "2022-12-25",
+       "FuelVolume": 19550
+      },
+      {
+       "id": 2,
+       "measurementDate": "2022-12-26",
+       "FuelVolume": 19461
+      },
+      {
+       "id": 3,
+       "measurementDate": "2022-12-27",
+       "FuelVolume": 18657
+      },
+      {
+       "id": 4,
+       "measurementDate": "2022-12-28",
+       "FuelVolume": 18333
+      },
+      {
+       "id": 5,
+       "measurementDate": "2022-12-29",
+       "FuelVolume": 18181
+      },
+      {
+       "id": 6,
+       "measurementDate": "2022-12-30",
+       "FuelVolume": 17183
+      },
+      {
+       "id": 7,
+       "measurementDate": "2022-12-31",
+       "FuelVolume": 17122
+      },
+      {
+       "id": 8,
+       "measurementDate": "2023-01-01",
+       "FuelVolume": 16993
+      },
+      {
+       "id": 9,
+       "measurementDate": "2023-01-02",
+       "FuelVolume": 16957
+      },
+      {
+       "id": 10,
+       "measurementDate": "2023-01-03",
+       "FuelVolume": 16780
+      },
+      {
+       "id": 11,
+       "measurementDate": "2023-01-04",
+       "FuelVolume": 16226
+      },
+      {
+       "id": 12,
+       "measurementDate": "2023-01-05",
+       "FuelVolume": 16082
+      },
+      {
+       "id": 13,
+       "measurementDate": "2023-01-06",
+       "FuelVolume": 15766
+      },
+      {
+       "id": 14,
+       "measurementDate": "2023-01-07",
+       "FuelVolume": 15340
+      },
+      {
+       "id": 15,
+       "measurementDate": "2023-01-08",
+       "FuelVolume": 14416
+      },
+      {
+       "id": 16,
+       "measurementDate": "2023-01-09",
+       "FuelVolume": 14395
+      },
+      {
+       "id": 17,
+       "measurementDate": "2023-01-10",
+       "FuelVolume": 14258
+      },
+      {
+       "id": 18,
+       "measurementDate": "2023-01-11",
+       "FuelVolume": 14222
+      },
+      {
+       "id": 19,
+       "measurementDate": "2023-01-12",
+       "FuelVolume": 13836
+      },
+      {
+       "id": 20,
+       "measurementDate": "2023-01-13",
+       "FuelVolume": 13361
+      },
+      {
+       "id": 21,
+       "measurementDate": "2023-01-14",
+       "FuelVolume": 12705
+      },
+      {
+       "id": 22,
+       "measurementDate": "2023-01-15",
+       "FuelVolume": 12303
+      },
+      {
+       "id": 23,
+       "measurementDate": "2023-01-16",
+       "FuelVolume": 12159
+      },
+      {
+       "id": 24,
+       "measurementDate": "2023-01-17",
+       "FuelVolume": 11403
+      },
+      {
+       "id": 25,
+       "measurementDate": "2023-01-18",
+       "FuelVolume": 10547
+      },
+      {
+       "id": 26,
+       "measurementDate": "2023-01-19",
+       "FuelVolume": 10451
+      },
+      {
+       "id": 27,
+       "measurementDate": "2023-01-20",
+       "FuelVolume": 10081
+      },
+      {
+       "id": 28,
+       "measurementDate": "2023-01-21",
+       "FuelVolume": 9829
+      },
+      {
+       "id": 29,
+       "measurementDate": "2023-01-22",
+       "FuelVolume": 9712
+      }
+     ]
+    },
+    "name": "LPG tank 3045",
+    "imageLink": "https://www.generatorsource.com/getattachment/Articles/Generator-Info/Generator-Fuel-Tanks/Diesel-Fuel-Tank.jpg",
+    "notesList": [
+     {
+      "creator": "Admin",
+      "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
+     }
+    ]
+   }
+  ]
+ }
