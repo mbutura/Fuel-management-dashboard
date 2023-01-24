@@ -10,7 +10,10 @@
       content="Fuel management dashboard"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-            
+
+    <!-- Leaflet marker issue workaround - https://github.com/PaulLeCam/react-leaflet/issues/453 -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
     <!-- Odoo live support features -->
     <link rel="stylesheet" href="https://inkandcoconuts.odoo.com/im_livechat/external_lib.css"/>       
     <script type="text/javascript" src="https://inkandcoconuts.odoo.com/im_livechat/external_lib.js"></script>
