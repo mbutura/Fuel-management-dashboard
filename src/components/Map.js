@@ -9,12 +9,6 @@ function Map({setAssetOfInterest, mapHeightVar}) {
 
   //Function will be hoisted
   function showMap(){
-    //Handle leaflet issue with recreating DOM container
-    let container = L.DomUtil.get("map");
-
-    if (container != null) {
-      container._leaflet_id = null;
-    }
     //Focus on Nairobi, however this should be done in production using bounds
     let nairobiCenter = [-1.2920659, 36.8219461];
     let myMap = L.map("map").setView(nairobiCenter, 11);
