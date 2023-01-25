@@ -3,7 +3,7 @@ import Map from './components/Map'
 // import Header from './components./Header'
 // import QuickView from './components/QuickView'
 // import Graph from './components/Graph'
-// import NotesList from './components/Noteslist'
+import NotesList from './components/NotesList';
 // import Footer from './components/Footer'
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
           {/* <Graph assetOfInterest={assetOfInterest}/> */}
         </div>
         <div className="w3-card-4 w3-third">
-          {/* <NotesList assetOfInterest={assetOfInterest} /> */}
+          <NotesList assetOfInterest={assetOfInterest} />
         </div>
       </div>
       {/* <Footer /> */}
