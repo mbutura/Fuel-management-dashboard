@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import Map from './components/Map'
 // import Header from './components./Header'
 import QuickView from './components/QuickView'
-// import Graph from './components/Graph'
+import Graph from './components/Graph'
 // import NotesList from './components/Noteslist'
 // import Footer from './components/Footer'
 
@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="w3-row-padding">
         <div className="w3-card-4 w3-twothird">
-          {/* <Graph assetOfInterest={assetOfInterest}/> */}
+          <Graph assetOfInterest={assetOfInterest}/> 
         </div>
         <div className="w3-card-4 w3-third">
           {/* <NotesList assetOfInterest={assetOfInterest} /> */}
