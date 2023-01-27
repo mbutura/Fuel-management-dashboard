@@ -47,7 +47,7 @@ function Map({setAssetOfInterest, mapHeightVar}) {
     .then((data) => setAllAssets(data));
   }
 
-  return (<div id="map" style={{ width: "100%", height: mapHeightVar }}></div>);
+  return (<div id="map" class="container-fluid" style={{ width: "100%", height: mapHeightVar }}></div>);
 }
 
 

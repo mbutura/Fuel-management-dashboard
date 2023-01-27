@@ -884,40 +884,6 @@
           "Message": "This is your first note on this asset- you can create, update and delete your notes for technicians to view"
         }
       ]
-    },
-    {
-      "id": 105,
-      "image": "",
-      "name": "",
-      "containerVolume": "",
-      "currentVolume": "",
-      "location": {
-        "longitude": "",
-        "latitude": ""
-      },
-      "batch": "",
-      "sku": "",
-      "comments": {
-        "user": "",
-        "text": ""
-      }
-    },
-    {
-      "image": "",
-      "name": "",
-      "containerVolume": "",
-      "currentVolume": "",
-      "location": {
-        "longitude": "",
-        "latitude": ""
-      },
-      "batch": "",
-      "sku": "",
-      "comments": {
-        "user": "",
-        "text": ""
-      },
-      "id": 106
     }
   ]
 }

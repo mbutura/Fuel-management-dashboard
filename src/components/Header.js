@@ -1,13 +1,13 @@
 import React from "react";
-import "./Header.css";
 
-export default function Header(props) {
+function Header() {
   return (
-    <div className="header">
-      <header>
-      <h1>{props.title}</h1>
-      <p>{props.subtitle}</p>
-      </header>
-    </div>
+    <header className="p-3 text-bg-primary">
+        <div className="container">
+            <h1 className="fs-4">Asset viewer</h1>
+        </div>
+    </header>
   );
 }
+
+export default Header;
