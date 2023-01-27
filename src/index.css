@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Caramel&family=East+Sea+Dokdo&family=Lovers+Quarrel&family=Moon+Dance&family=Oleo+Script+Swash+Caps&family=Ranga&display=swap');
+*{
+    font-family: 'Aladin', cursive;
+    font-family: 'Caramel', cursive;
+    font-family: 'East Sea Dokdo', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Ranga', cursive;
+}
+.home {
+    background-image: url("https://images.unsplash.com/photo-1556474093-6177c3c52519?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    height: 1400px;
+}
+
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */

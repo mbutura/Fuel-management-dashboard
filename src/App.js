@@ -5,6 +5,7 @@ import Map from './components/Map'
 // import Graph from './components/Graph'
 import NotesList from './components/NotesList';
 // import Footer from './components/Footer'
+import Home from './components/Home';
 
 function App() {
   const mapHeightVar = "378px";
@@ -33,6 +34,7 @@ function App() {
         </div>
       </div>
       {/* <Footer /> */}
+      <Home/>
     </div>
   );
 }
