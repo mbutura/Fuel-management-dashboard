@@ -21,12 +21,12 @@ function App() {
           <Map setAssetOfInterest={setAssetOfInterest} mapHeightVar={mapHeightVar}/>
         </div>
         <div className="w3-card-4 w3-third">
-          {/* <Quickview assetOfInterest={assetOfInterest}/> */}
+          <QuickView assetOfInterest={assetOfInterest}/>
         </div>
       </div>
       <div className="w3-row-padding">
         <div className="w3-card-4 w3-twothird">
-          {/* <Graph assetOfInterest={assetOfInterest}/> */}
+          <Graph assetOfInterest={assetOfInterest}/> 
         </div>
         <div className="w3-card-4 w3-third">
           <NotesList assetOfInterest={assetOfInterest} />
