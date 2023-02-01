@@ -28,5 +28,15 @@ Open [http://localhost:5050](http://localhost:5050) to view it in your browser.
 - Map
 - QuickView
 - Graph
-- NotesList
 - Footer
+
+## Codebase routes
+
+- Home
+- Demo
+- NotFound
+
+## APIs
+
+- Openstreet maps
+- Local db.json
