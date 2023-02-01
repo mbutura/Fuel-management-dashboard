@@ -27,7 +27,7 @@ function Map({setAssetOfInterest, mapHeightVar}) {
     //Display markers only if there is asset data
     if(allAssets != null){
       allAssets.forEach(function (asset, assetIndex) {
-        let marker = L.circleMarker([asset.location.lat, asset.location.lon],{"assetIndex": assetIndex})
+        let marker = L.marker([asset.location.lat, asset.location.lon],{"assetIndex": assetIndex})
         marker.on('click', (e) => {
           setAssetOfInterest(allAssets[e.target.options.assetIndex]);
         });

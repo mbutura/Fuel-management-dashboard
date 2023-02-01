@@ -1,33 +1,18 @@
-import React, {useState, useEffect} from 'react';
-import Map from './components/Map'
-import Header from './components/Header'
-//import QuickView from './components/QuickView'
-// import Graph from './components/Graph'
-// import NotesList from './components/NotesList';
-import Footer from './components/Footer'
+import React from "react"
+import Demo from './components/Demo'
+import Home from './components/Home'
+import NotFound from './components/NotFound'
+import { Routes, Route } from "react-router-dom"
+
 
 function App() {
-  const mapHeightVar = "512px";
-  // eslint-disable-next-line
-  const [assetOfInterest, setAssetOfInterest] = useState(null);
-
-  const debugOnClick = () => console.log("Clicked received - broadcasting this asset", assetOfInterest);
-  useEffect(debugOnClick, [assetOfInterest]);
-  return (
-    <div >
-      <Header />
-      <Map setAssetOfInterest={setAssetOfInterest} mapHeightVar={mapHeightVar}/>
-      {/* <br/>
-      <div className="row">
-        <div className="col-sm-4"> */}
-          {/* <QuickView assetOfInterest={assetOfInterest}/> */}
-        {/* </div>
-      </div> */}
-          {/* <Graph assetOfInterest={assetOfInterest}/> 
-          <NotesList assetOfInterest={assetOfInterest} /> */} */
-      <Footer />
-    </div>
-  );
+  return(
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/demo" element={<Demo />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+  )
 }
 
 export default App;

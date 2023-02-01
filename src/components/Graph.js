@@ -1,73 +1,80 @@
-import {useEffect, useState} from 'react';
-import { Line } from 'react-chartjs-2';
-import {Chart as ChartJS, Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement, Filler} from 'chart.js';
-ChartJS.register(
-  Title, Tooltip, LineElement, Legend,
-  CategoryScale, LinearScale, PointElement, Filler
-)
+import React, { useRef, useEffect, useState } from "react";
+import * as d3 from "d3";
 
-function Graph(assetOfInterest) {
-    const [apiData, setApiData] = useState([]);
-    const [apiLabels, setApiLabels] = useState([]);
-    
+function Graph({ assetOfInterest }){
+  const svgRef = useRef();
+  const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
+
+  useEffect(() => {
+    if (!assetOfInterest) return;
+    const container = d3.select(svgRef.current.parentNode);
+    const containerWidth = container.node().offsetWidth;
+    const containerHeight = container.node().offsetHeight;
+    setDimensions({ width: containerWidth, height: containerHeight });
+  }, [assetOfInterest]);
+
+  useEffect(() => {
+    if (!assetOfInterest) return;
+    const svg = d3.select(svgRef.current);
+
+    // Process the data
+    const processedData = assetOfInterest.measurement.history.map(d => {
+      return {
+        date: d3.timeParse("%Y-%m-%d")(d.measurementDate),
+        volume: d.FuelVolume
+      };
+    });
 
 
-  const [data, setData]= useState({
-    labels:[],
-    datasets:[
-      {
-        label:"Fuel Volume",
-        data:[],
-        backgroundColor:'gold',
-        borderColor:'maroon',
-        tension:0.5,
-        fill:true,
-        pointStyle:'rect',
-        pointBorderColor:'blue',
-        pointBackgroundColor:'#fff',
-        showLine:true
-      }
-    ]
-  })
+    // Set up scales
+    const xScale = d3
+      .scaleTime()
+      .domain(d3.extent(processedData, d => d.date))
+      .range([0, dimensions.width]);
 
-  useEffect(()=>{
-  fetch("http://0.0.0.0:3000/assets")
-    .then(response => response.json())
-    .then(apiData => {
-  //
-     // const data = apiData.map(assets => assets.measurement.history[0].FuelVolume);
-      //const labels = apiData.map(assets => assets.measurement.history[2].measurementDate);
+    const yScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(processedData, d => d.volume)])
+      .range([dimensions.height, 0]);
 
-      const data = apiData.map(assets => assets.measurement.history.map(history => history.FuelVolume)).flat();
-      const labels = apiData.map(assets => assets.measurement.history.map(history => history.measurementDate)).flat();
-
-//
-      setData({
-        labels,
-        datasets:[
-          {
-            label: "Fuel Volume",
-            data,
-            backgroundColor: 'gold',
-            borderColor: 'maroon',
-            tension: 0.5,
-            fill: true,
-            pointStyle: 'rect',
-            pointBorderColor: 'blue',
-            pointBackgroundColor: '#fff',
-            showLine: true
-          }
-        ]
-      });
-    })
-    .catch(err => console.log(err))
-},[]);
+    // Create the area generator
+    const areaGenerator = d3
+      .area()
+      .x(d => xScale(d.date))
+      .y0(yScale(0))
+      .y1(d => yScale(d.volume));
 
     
+      d3.selectAll("svg > *").remove();
+
+    // Draw the area chart
+    svg
+      .append("path")
+      .attr("fill", "#69b3a2")
+      .attr("fill-opacity", .3)
+      .attr("stroke", "black")
+      .attr("stroke-width", 1)
+      .attr("d", areaGenerator(processedData));
+
+    // Add X-axis
+    svg
+    .append("g")
+    .call(d3.axisBottom(xScale));
+
+    // Add Y-axis
+    svg
+    .append("g")
+    .call(d3.axisLeft(yScale));
+  }, [assetOfInterest, dimensions]);
+
   return (
-    <div className="App" style={{width:'800px', height:'800px'}}>
-      <Line data={data}>Dataset</Line>
-    </div>
+    <>
+      <div className="card">
+        <div className="card-body">
+          <svg ref={svgRef} />
+        </div>
+      </div>
+    </>
   );
 }
 
